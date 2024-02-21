@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    width: 60%; 
+    margin-left: 20%;
+    background-color: rgb(216, 238, 245);
+}
+
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+section > div {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  
+}
+
+section p {
+    margin-left: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+article {
+padding: 20px;
+}
+
+article > p {
+    margin-top: 10px;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    justify-content: right;
+}
+
+nav li {
+    margin: 5px;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+}
+
+footer > ul {
+    padding: 40px;
+    list-style: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white ;
+}
+
+nav a:hover, nav li:hover {
+    background-color: red;
+}
+
+/* 768px보다 작아지면 폭 100%가 lightblue가 됨*/
+/* 768px은 태블릿 기준이기 때문에 태블릿에서 보이는 버전이 됨 */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    header > h1 {
+        font-size: medium;
+        color: white;
+    }
+  }
+  

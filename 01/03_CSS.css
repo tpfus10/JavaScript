@@ -1,0 +1,120 @@
+*{
+    box-sizing: content-box;
+}
+
+.back {
+    margin: 0 auto;
+    align-items: center;
+    background-color: azure;
+    width: 80%;
+}
+
+button {
+    color: white;
+    background-color: rgb(43, 94, 235);
+    border: 0px;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.First {
+    text-align: center;
+}
+
+.Second {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+
+.Third {
+    padding-left: 1rem;
+}
+
+.link {
+    align-items: center;
+}
+
+.Forth {
+    margin: 0 auto;
+    justify-content: center;
+    background-color: white;
+    width: 45rem;
+    height: 17rem;
+}
+
+.html {
+    display: flex;
+    margin: 10px;
+}
+
+.Fifth {
+    margin: 0 auto;
+    background-color: white;
+    width: 45rem;
+    height: 17rem;
+}
+
+.css {
+    display: flex;
+    margin: 10px;
+}
+
+.sixth {
+    margin: 0 auto;
+    background-color: white;
+    width: 45rem;
+    height: 17rem;
+}
+
+.java {
+    display: flex;
+    margin: 10px;
+}
+
+.seventh {
+    margin: 0 auto;
+    background-color: white;
+    width: 45rem;
+    height: 17rem;
+}
+
+.react{
+    display: flex;
+    margin: 10px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+}
+
+img {
+    border-radius: 100px;
+    margin-left: 2rem;
+
+}
+
+.exp {
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 80px;
+padding-right: 80px;
+    }
+
+p {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+h1 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+h2{
+    padding-left: 1rem;
+    padding-right: 2rem;
+}

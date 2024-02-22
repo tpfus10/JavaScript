@@ -28,9 +28,13 @@ article {
 
 article > ul{
     width: 80%;
-    background-color: bisque;
+    background-color:paleturquoise;
     margin-top: 20px;
     list-style: none;
+}
+
+article a {
+    text-decoration: none;
 }
 
 article li {
@@ -39,4 +43,9 @@ article li {
     height: 20px;
     border: 1px dotted grey;
     padding: 10px;
+}
+
+article li:hover {
+    background-color: hotpink;
+    color: white;
 }

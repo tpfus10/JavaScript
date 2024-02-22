@@ -1,6 +1,10 @@
 //함수 작성2 : 화살표 함수(상수에 함수 선언)
 //변수 선언: const(상수), let(변수) 
-const handleClick = (n) =>  {document.querySelector("#msgArea").innerHTML = `<h2>버튼 ${n}이 눌러졌습니다.</h2>`;
+const handleClick = (n) =>  {
+    let msg;
+    if(n==1) msg = "<h2>안녕하세요</h2>";
+    else msg = "<h2>안녕히 가세요</h2>";
+    document.querySelector("#msgArea").innerHTML = msg;
 }
 
 

@@ -19,3 +19,34 @@ h2 {
     font-size: medium;
     color: blue;
 }
+
+/* inline-flex를 하면 width와 padding을 줄 수 있음 */
+/* flex가 들어가면 박스가 되고 width와 padding을 줄 수 있음 */
+header a {
+    text-decoration: none;
+    padding: 10px; 
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    width: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btGroup {
+    background-color: antiquewhite;
+}
+
+/* .btGroup > button {
+    background-color: green;
+    color: white;
+} */
+
+img {
+    width: 20px;
+}
+
+#bt3 {
+    background-color: black;
+}

@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    width: 60%;
+    margin-left: 20%;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 위아래 양옆 */
+    padding: 0px 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section > h1 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    border: 1px dotted gray;
+    margin-top: 10px;
+    width: 83%;
+}
+
+section > #msg {
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px dotted gray;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.first {
+    align-items: center;
+    border: 1px dotted gray;
+    padding: 20px;
+    margin: 10px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+}

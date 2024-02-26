@@ -1,76 +1,88 @@
 * {
     padding: 0px;
     margin: 0px;
-}
-
-main {
+  }
+  
+  main {
     width: 60%;
     margin-left: 20%;
-}
-
-header {
-    background-color: blue;
+  }
+  
+  header {
+    background-color:midnightblue;
     color: white;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 위아래 양옆 */
     padding: 0px 20px;
-}
-
-article {
+  }
+  
+  article {
     display: flex;
-    /* flex-direction을 하는 이유: 수평수직 정렬을 하기 위해 */
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-}
-
-article > ul{
+  }
+  
+  article ul {
     width: 80%;
-    background-color:paleturquoise;
+    background-color: beige;
     margin-top: 20px;
     list-style: none;
-}
-
-article a {
-    text-decoration: none;
-}
-
-article li {
+  }
+  article li {
     display: flex;
     align-items: center;
     height: 20px;
-    border: 1px dotted grey;
+    border: 1px dotted gray;
     padding: 10px;
-}
-
-article li:hover {
-    background-color: hotpink;
+  }
+  article a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  article li:hover {
+    background-color: goldenrod;
     color: white;
-}
-
-section {
+  }
+  
+  section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-
-section > h1 {
+  }
+  section > h1 {
     display: flex;
     padding: 20px;
     justify-content: center;
     align-items: center;
-}
-
-section > div {
+    border: 1px dotted gray;
+    background-color:aliceblue;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  section > div {
     width: 80%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     border: 1px dotted gray;
     padding: 20px;
     margin: 10px;
-}
-
+  }
+  
+  header > div > a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:  none;
+    padding: 10px;
+    color: midnightblue;
+    background-color: white;
+    border-radius: 5px;
+    width: 60px;
+    
+  }

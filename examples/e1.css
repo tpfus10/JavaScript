@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    width: 100vh;
+}
+
+#div1 {
+    border-bottom: 1px solid gainsboro;
+    height: 50%;
+}
+
+#div1 > h1 {
+    margin-left: 10px;
+}
+
+#div2 {
+    height: 50%;
+}
+
+
